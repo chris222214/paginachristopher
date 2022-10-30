@@ -1,0 +1,84 @@
+form {
+	width:25%;
+	border:1px solid #ccc;
+	margin:20px auto;
+	background-color: gray;
+
+}
+
+body {
+	background-image: url(img/Libertador1.jpg);
+	width: 100%;
+	background-size:  50px;
+       background-size: 100%;
+
+
+
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+	label {
+		font-size:12px;
+		display:block;
+		width:100%;
+	}
+
+	textarea {
+		resize: vertical;
+		max-height: 300px;
+		min-height: 100px;
+	}
+
+	input, textarea {
+		margin-bottom:20px;
+		width:100%;
+		padding:10px;
+		box-sizing:border-box;
+		border:1px solid #ccc;
+	}
+
+	input:focus, textarea:focus{
+		border:1px solid #1668c4;
+	}
+
+input[type="submit"]{
+	margin-bottom:0;
+	background:#1668c4;
+	color:#fff;
+	border:none;
+}
+
+input[type="submit"]:hover{
+	background:#4A88F4;
+	cursor:pointer;
+	
+	
+}
+
+input[type="reset"]{
+	margin-bottom: 0;
+	border: none;
+}
+input[type="reset"]:hover{
+	cursor: pointer;
+	
+}
+
+nav {
+	display: block;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	width: 150px;
+
+
+
+}
